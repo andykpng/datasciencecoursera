@@ -1,0 +1,17 @@
+---
+title: "Develop Data Product Project 1"
+author: "Andy Ng"
+date: "2016¦~10¤ë24¤é"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+library(leaflet)
+my_map <- leaflet() %>%
+    addTiles()
+my_map
+```
